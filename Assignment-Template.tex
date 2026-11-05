@@ -1,0 +1,42 @@
+\documentclass[a4paper,11pt]{article}
+
+% Schrift
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Kopfzeile
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{titling}
+\setlength{\droptitle}{-1.5cm}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Veranstaltung - WS 26/27}
+\rhead{Seite \thepage{} von \pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{14pt}
+
+% Sonstiges
+\usepackage{enumitem}
+\setlist[enumerate,1]{label=(\alph*)}
+\newcommand{\kopf}[1]{\par\noindent\textbf{\textit{#1.}}}
+
+% Mathe
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+
+% Titelblock
+\title{\textbf{Assignment 1}}
+\author{Julian Steinacker}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+\hrule
+\bigskip
+
+\end{document}
